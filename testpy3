@@ -1,0 +1,9 @@
+#!/usr/local/bin/python3
+
+import pprint
+
+stuff = ['eggs', 'milk', 'bread']
+stuff.append("kasha")
+pp = pprint.PrettyPrinter(indent=5)
+pp.pprint(stuff)
+print(stuff)
